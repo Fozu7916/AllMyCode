@@ -1,15 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <cmath>
-#include <ctime>
-#include <Windows.h>
-#include <cstdlib>
-#include <conio.h>
-#include <stdio.h>
-#include <cstdio>
-#include "D:\vidiogamese\PRoekt\sum.h"
-#include "D:\vidiogamese\PRoekt\tresh.cpp"
 using namespace std;
 
 
@@ -48,5 +38,5 @@ int main()
     CreateArrow(FozuArr, number,size);
 
 
-    cout << " Enter для завершения программы" << endl;      while (1) { int a, b;        a = _getch();        b = static_cast <int> (a);              if (b == 13) { exit(0);                break; } else { continue; } }         return 0;
+    return 0;
 }
