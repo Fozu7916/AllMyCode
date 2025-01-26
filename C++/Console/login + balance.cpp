@@ -1,4 +1,6 @@
 #include <iostream>
+
+
 // система Войти/Зарегистрироваться
 class Data
 {
@@ -145,18 +147,3 @@ public:
         }
     }
 };
-
-
-int main()
-{
-    setlocale(LC_ALL, "RU");
-    Balance balance; Data userdata;
-   /* userdata.Beforelogin();
-    if (userdata.Logged())
-    {*/
-        balance.Afterogin();
-  //  }
-    
-
-    return 0;
-}
