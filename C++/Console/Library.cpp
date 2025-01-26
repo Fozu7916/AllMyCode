@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-
+//класс отдельной книги
 class Book {
 public:
     string name = "";
@@ -14,7 +14,7 @@ public:
         return result;
     }
 };
-
+//класс библиотеки
 class Library {
 public:
     int count = 0;
